@@ -1,0 +1,73 @@
+/* To make site responsive */
+/* Navigation */
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+
+}
+/* Home section */
+#home{
+    height: 300px;
+    padding: 20px;
+}
+
+#home::before{
+    /* height: 400px; */
+    background-size: cover;
+}
+
+/* Secvices section */
+
+.services-container h2{
+    /* margin: 10px; */
+    font-size: 20px;
+} 
+
+.services-container p{
+    font-size: 15px;
+}
+#services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#services .box{
+    margin-bottom: 15px;
+    padding: 10px;
+    /* margin-left: 10px; */
+}
+
+#services .box img{
+    width: 121px;
+    height:119px;
+}
+/* Client section */
+#client-section{
+    margin-top: 650px;
+}
+#clients{
+    overflow: hidden;
+}
+
+#clients img{
+    width: 66px;
+    padding: 6px;
+    height: auto;
+}
+/* Contact us */
+#contact-box form{
+    width:80%;
+}
+
+/* Footer */
+
+
+/* ultility classes */
+.h-primary{
+    font-size: 26px;
+}
